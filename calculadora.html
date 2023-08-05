@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Document</title>
+</head>
+
+<body>
+     
+        <div class="containerCalculadora">
+            <div class="containerResposta">
+                <p class="textoCalculadora" id="calculadoraText">CALCULADORA</p>
+                <div class="resposta">
+                    <p class="textoResposta" id="telaResposta"></p>
+            </div>
+        </div>
+
+        <div class="botõesContainer">
+                <div class="fileiraContainer">
+
+                    <button class="botãoPadrão" onclick="clean()">C</button>
+                    <button class="botãoPadrão" onclick="back()">></button>
+                    <button class="botãoPadrão" onclick="inserir('/')">/</button>
+                    <button class="botãoPadrão" onclick="inserir('.')">.</button>
+
+                </div>
+
+                <div class="fileiraContainer">
+                    
+                    <button class="botãoPadrão" onclick="inserir('7')">7</button>
+                    <button class="botãoPadrão" onclick="inserir('8')">8</button>
+                    <button class="botãoPadrão" onclick="inserir('9')">9</button>
+                    <button class="botãoPadrão" onclick="inserir('*')">X</button>
+
+                </div>
+                
+                <div class="fileiraContainer">
+                    
+                    <button class="botãoPadrão" onclick="inserir('4')">4</button>
+                    <button class="botãoPadrão" onclick="inserir('5')">5</button>
+                    <button class="botãoPadrão" onclick="inserir('6')">6</button>
+                    <button class="botãoPadrão" onclick="inserir('-')">-</button>
+                    
+                </div>
+                
+                <div class="fileiraContainer">
+                    
+                    <button class="botãoPadrão" onclick="inserir('1')">1</button>
+                    <button class="botãoPadrão" onclick="inserir('2')">2</button>
+                    <button class="botãoPadrão" onclick="inserir('3')">3</button>
+                    <button class="botãoPadrão" onclick="inserir('+')">+</button>
+                    
+                </div>
+                
+                <div class="fileiraContainerUltima">
+
+                    <button class="botãoPadrãoIgual" onclick="inserir('0')">0</button>
+                    <button class="botãoPadrãoZero" onclick="somar()">=</button>
+                    
+
+                </div>
+
+            </div>
+        </div>
+    
+</div>
+    <script src="calculadora.js"></script>
+</body>
+
+</html>

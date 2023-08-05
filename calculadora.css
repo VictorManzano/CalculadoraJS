@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #0e1315;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containerCalculadora {
+    width: 350px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 9px 9px 32px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 9px 32px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 9px 32px -4px rgba(0, 0, 0, 0.75);
+}
+
+.containerResposta {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+
+
+.textoCalculadora {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.resposta {
+    background-color: white;
+    width: 250px;
+    height: 70px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+.textoResposta {
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.botõesContainer {
+    height: 350px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.botãoPadrão {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.botãoPadrão:hover {
+    background-color: rgb(78, 78, 78);
+}
+
+
+.fileiraContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 60px;
+    width: 300px;
+}
+
+.fileiraContainerUltima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 60px;
+    width: 300px;
+}
+
+
+
+
+.botãoPadrãoZero {
+    width: 130px;
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.botãoPadrãoZero:hover {
+    background-color: rgb(78, 78, 78);
+}
+
+.botãoPadrãoIgual {
+    width: 85px;
+    height: 50px;
+    background-color: grey;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.botãoPadrãoIgual:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+
